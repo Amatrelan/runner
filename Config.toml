@@ -1,0 +1,15 @@
+[global]
+log_level = "info"
+
+[task.in_validation]
+args = ["Hello", "World"]
+value = "First Task!"
+
+[task.convert]
+value = "Second Task!"
+
+[task.encode]
+value = "Third Task!"
+
+[task.rename]
+value = "Fourth Task!"
